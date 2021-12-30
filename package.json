@@ -1,0 +1,12 @@
+{
+  "name": "caroussel",
+  "version": "1.0.0",
+  "description": "background carrousel",
+  "main": "js/index.js",
+  "type": "module",
+  "scripts": {
+    "sass" : "sass --watch styles/index.scss:styles/main.css"
+  },
+  "author": "aerobi",
+  "license": "ISC"
+}

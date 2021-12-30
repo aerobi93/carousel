@@ -1,0 +1,26 @@
+@import 'reset.scss';
+
+.container {
+    width: 50%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.background {
+    height: 90%;
+    width: 100%;
+    background-color: red;
+}
+.form {
+    display: flex;
+    border-top: black 20px solid;
+    height: 10%;
+
+    &-before, &-next{
+        width: 50%;
+        text-align: center;
+        padding: 0.5rem;
+    }
+}
+
